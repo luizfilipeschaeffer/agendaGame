@@ -36,6 +36,10 @@ export function SingIn() {
           title="Entrar com o Discord"
           activeOpacity={0.84}
         />
+        <ButtonIcon
+          title="By Luiz Filipe Schaeffer"
+          activeOpacity={0.84}
+        />
       </View>
     </View>
   );
