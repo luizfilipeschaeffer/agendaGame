@@ -33,10 +33,6 @@ export function SingIn() {
           favoritos com seus amigos
         </Text>
         <ButtonIcon
-          title="Entrar com o Discord"
-          activeOpacity={0.84}
-        />
-        <ButtonIcon
           title="By Luiz Filipe Schaeffer"
           activeOpacity={0.84}
         />
