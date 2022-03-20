@@ -9,7 +9,7 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#0D133D",
-      "active":"false"
+      "active": "false"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -28,6 +28,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/luizfilipeschaeffer/agendaGame"
   }
 }

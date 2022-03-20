@@ -4,19 +4,14 @@ import {
   Text,
   View,
   Image,
-  StatusBar
-} from 'react-native';
+  } from 'react-native';
 import { ButtonIcon } from '../../components/ButtonIcon';
 import IllustrationImg from '../../assets/illustration.png';
 import { styles } from './styles';
 export function SingIn() {
   return (
     <View style={styles.container}>
-      <StatusBar
-        barStyle="light-content"
-        backgroundColor="transparent"
-        translucent
-      />
+
       <Image
         source={IllustrationImg}
         style={styles.image}
@@ -24,16 +19,16 @@ export function SingIn() {
       />
       <View style={styles.content}>
         <Text style={styles.title}>
-          Organize{`\n`}
-          suas jogatinas{`\n`}
-          facilmente
+          Conecte-se{`\n`}
+          e organize suas{`\n`}
+          jogatinas
         </Text>
         <Text style={styles.subtitle}>
           Crie grupos para jogar seus games{`\n`}
           favoritos com seus amigos
         </Text>
         <ButtonIcon
-          title="By Luiz Filipe Schaeffer"
+          title="Entrar com o Discord"
           activeOpacity={0.84}
         />
       </View>
