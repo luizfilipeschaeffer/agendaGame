@@ -8,6 +8,7 @@ import {
 import { ButtonIcon } from '../../components/ButtonIcon';
 import IllustrationImg from '../../assets/illustration.png';
 import { styles } from './styles';
+import { Backgrounds } from '../../components/Background';
 export function SingIn() {
   return (
     <View style={styles.container}>
